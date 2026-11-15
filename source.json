@@ -1,0 +1,49 @@
+{
+  "name": "houndapps",
+  "identifier": "com.horsehound.houndapps",
+  "subtitle": "Apps by horsehound",
+  "description": "Personal apps by horsehound, built from their GitHub repos.",
+  "website": "https://github.com/horsehound/houndapps",
+  "sourceURL": "https://raw.githubusercontent.com/horsehound/houndapps/main/source.json",
+  "iconURL": "https://raw.githubusercontent.com/horsehound/houndapps/main/icons/swipeclean.png",
+  "tintColor": "000000",
+  "apps": [
+    {
+      "name": "SwipeClean",
+      "bundleIdentifier": "com.horsehound.swipeclean",
+      "developerName": "horsehound",
+      "subtitle": "Swipe through your photos month by month.",
+      "localizedDescription": "Go through your photo library one month at a time. Swipe left to mark a photo for deletion, right to keep it. Favourite and share photos on the way. Nothing is deleted until you confirm.",
+      "iconURL": "https://raw.githubusercontent.com/horsehound/houndapps/main/icons/swipeclean.png",
+      "tintColor": "000000",
+      "category": "utilities",
+      "screenshots": [],
+      "versions": [
+        {
+          "version": "1.0.6",
+          "buildVersion": "6",
+          "date": "2026-11-15T06:18:27Z",
+          "localizedDescription": "Publish IPA as a release and use com.horsehound bundle ID",
+          "downloadURL": "https://github.com/horsehound/SwipeClean/releases/download/v1.0.6/SwipeClean.ipa",
+          "size": 152279,
+          "minOSVersion": "17.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSPhotoLibraryUsageDescription": "SwipeClean shows your photos so you can swipe to keep or delete them."
+        }
+      },
+      "version": "1.0.6",
+      "versionDate": "2026-11-15T06:18:27Z",
+      "versionDescription": "Publish IPA as a release and use com.horsehound bundle ID",
+      "downloadURL": "https://github.com/horsehound/SwipeClean/releases/download/v1.0.6/SwipeClean.ipa",
+      "size": 152279
+    }
+  ],
+  "featuredApps": [
+    "com.horsehound.swipeclean"
+  ],
+  "news": []
+}

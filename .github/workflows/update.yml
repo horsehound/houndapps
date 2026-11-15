@@ -1,0 +1,39 @@
+name: Update source
+
+on:
+  schedule:
+    - cron: "17 * * * *"
+  push:
+    paths:
+      - "apps.json"
+      - "build_source.py"
+      - ".github/workflows/update.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency: update-source
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build source.json
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python3 build_source.py
+
+      - name: Commit if changed
+        run: |
+          git add source.json
+          if git diff --cached --quiet; then
+            echo "source.json unchanged"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Update source.json"
+          git push

@@ -1,0 +1,30 @@
+{
+  "source": {
+    "name": "houndapps",
+    "identifier": "com.horsehound.houndapps",
+    "subtitle": "Apps by horsehound",
+    "description": "Personal apps by horsehound, built from their GitHub repos.",
+    "website": "https://github.com/horsehound/houndapps",
+    "sourceURL": "https://raw.githubusercontent.com/horsehound/houndapps/main/source.json",
+    "iconURL": "https://raw.githubusercontent.com/horsehound/houndapps/main/icons/swipeclean.png",
+    "tintColor": "000000"
+  },
+  "apps": [
+    {
+      "repo": "horsehound/SwipeClean",
+      "asset": "SwipeClean.ipa",
+      "name": "SwipeClean",
+      "bundleIdentifier": "com.horsehound.swipeclean",
+      "developerName": "horsehound",
+      "subtitle": "Swipe through your photos month by month.",
+      "localizedDescription": "Go through your photo library one month at a time. Swipe left to mark a photo for deletion, right to keep it. Favourite and share photos on the way. Nothing is deleted until you confirm.",
+      "iconURL": "https://raw.githubusercontent.com/horsehound/houndapps/main/icons/swipeclean.png",
+      "tintColor": "000000",
+      "category": "utilities",
+      "minOSVersion": "17.0",
+      "privacy": {
+        "NSPhotoLibraryUsageDescription": "SwipeClean shows your photos so you can swipe to keep or delete them."
+      }
+    }
+  ]
+}
