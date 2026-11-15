@@ -13,6 +13,7 @@
     {
       "repo": "horsehound/SwipeClean",
       "asset": "SwipeClean.ipa",
+      "skipVersions": ["1.0.6"],
       "name": "SwipeClean",
       "bundleIdentifier": "com.horsehound.swipeclean",
       "developerName": "horsehound",

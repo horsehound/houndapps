@@ -34,6 +34,8 @@ def versions_for(app):
         if asset is None:
             continue
         version = release["tag_name"].lstrip("v")
+        if version in app.get("skipVersions", []):
+            continue
         entry = {
             "version": version,
             "buildVersion": version.split(".")[-1],
