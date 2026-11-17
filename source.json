@@ -20,6 +20,15 @@
       "screenshots": [],
       "versions": [
         {
+          "version": "1.0.10",
+          "buildVersion": "10",
+          "date": "2026-11-17T21:43:59Z",
+          "localizedDescription": "Fix name clash in search matching",
+          "downloadURL": "https://github.com/horsehound/SwipeClean/releases/download/v1.0.10/SwipeClean.ipa",
+          "size": 285361,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.0.8",
           "buildVersion": "8",
           "date": "2026-11-17T20:43:43Z",
@@ -44,11 +53,11 @@
           "NSPhotoLibraryUsageDescription": "SwipeClean shows your photos so you can swipe to keep or delete them."
         }
       },
-      "version": "1.0.8",
-      "versionDate": "2026-11-17T20:43:43Z",
-      "versionDescription": "Add swipe up to add a photo to a chosen album/folder, and a README",
-      "downloadURL": "https://github.com/horsehound/SwipeClean/releases/download/v1.0.8/SwipeClean.ipa",
-      "size": 194470
+      "version": "1.0.10",
+      "versionDate": "2026-11-17T21:43:59Z",
+      "versionDescription": "Fix name clash in search matching",
+      "downloadURL": "https://github.com/horsehound/SwipeClean/releases/download/v1.0.10/SwipeClean.ipa",
+      "size": 285361
     },
     {
       "name": "Fetch",
