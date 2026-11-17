@@ -26,6 +26,23 @@
       "privacy": {
         "NSPhotoLibraryUsageDescription": "SwipeClean shows your photos so you can swipe to keep or delete them."
       }
+    },
+    {
+      "repo": "horsehound/fetch",
+      "asset": "Fetch.ipa",
+      "name": "Fetch",
+      "bundleIdentifier": "com.horsehound.fetch",
+      "developerName": "horsehound",
+      "subtitle": "Move text and pictures between your devices.",
+      "localizedDescription": "One live feed shared by your iPhone, laptop and PC, served by a small hub you host yourself. Paste or share text, pictures and files on one device and pick them up on the others. Unpinned items delete themselves after a week. Needs a Fetch hub: github.com/horsehound/fetch",
+      "iconURL": "https://raw.githubusercontent.com/horsehound/houndapps/main/icons/fetch.png",
+      "tintColor": "000000",
+      "category": "utilities",
+      "minOSVersion": "17.0",
+      "privacy": {
+        "NSLocalNetworkUsageDescription": "Fetch talks to your hub on your home network.",
+        "NSPhotoLibraryAddUsageDescription": "Fetch saves pictures from your other devices to your photo library."
+      }
     }
   ]
 }
