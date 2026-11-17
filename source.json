@@ -53,6 +53,24 @@
       "screenshots": [],
       "versions": [
         {
+          "version": "1.0.11",
+          "buildVersion": "11",
+          "date": "2026-11-17T06:40:41Z",
+          "localizedDescription": "Merge pull request #1 from horsehound/android-app",
+          "downloadURL": "https://github.com/horsehound/fetch/releases/download/v1.0.11/Fetch.ipa",
+          "size": 389929,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "1.0.8",
+          "buildVersion": "8",
+          "date": "2026-11-17T06:13:19Z",
+          "localizedDescription": "Remove the live/offline status indicator",
+          "downloadURL": "https://github.com/horsehound/fetch/releases/download/v1.0.8/Fetch.ipa",
+          "size": 389928,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.0.5",
           "buildVersion": "5",
           "date": "2026-11-17T06:02:51Z",
@@ -78,11 +96,11 @@
           "NSPhotoLibraryAddUsageDescription": "Fetch saves pictures from your other devices to your photo library."
         }
       },
-      "version": "1.0.5",
-      "versionDate": "2026-11-17T06:02:51Z",
-      "versionDescription": "Add desktop app, code highlighting and the new colour scheme",
-      "downloadURL": "https://github.com/horsehound/fetch/releases/download/v1.0.5/Fetch.ipa",
-      "size": 394487
+      "version": "1.0.11",
+      "versionDate": "2026-11-17T06:40:41Z",
+      "versionDescription": "Merge pull request #1 from horsehound/android-app",
+      "downloadURL": "https://github.com/horsehound/fetch/releases/download/v1.0.11/Fetch.ipa",
+      "size": 389929
     }
   ],
   "featuredApps": [
