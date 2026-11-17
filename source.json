@@ -48,10 +48,19 @@
       "subtitle": "Move text and pictures between your devices.",
       "localizedDescription": "One live feed shared by your iPhone, laptop and PC, served by a small hub you host yourself. Paste or share text, pictures and files on one device and pick them up on the others. Unpinned items delete themselves after a week. Needs a Fetch hub: github.com/horsehound/fetch",
       "iconURL": "https://raw.githubusercontent.com/horsehound/houndapps/main/icons/fetch.png",
-      "tintColor": "000000",
+      "tintColor": "5D00FF",
       "category": "utilities",
       "screenshots": [],
       "versions": [
+        {
+          "version": "1.0.5",
+          "buildVersion": "5",
+          "date": "2026-11-17T06:02:51Z",
+          "localizedDescription": "Add desktop app, code highlighting and the new colour scheme",
+          "downloadURL": "https://github.com/horsehound/fetch/releases/download/v1.0.5/Fetch.ipa",
+          "size": 394487,
+          "minOSVersion": "17.0"
+        },
         {
           "version": "1.0.2",
           "buildVersion": "2",
@@ -69,11 +78,11 @@
           "NSPhotoLibraryAddUsageDescription": "Fetch saves pictures from your other devices to your photo library."
         }
       },
-      "version": "1.0.2",
-      "versionDate": "2026-11-17T05:19:35Z",
-      "versionDescription": "Build the hub on Linux and the app on macOS in separate jobs",
-      "downloadURL": "https://github.com/horsehound/fetch/releases/download/v1.0.2/Fetch.ipa",
-      "size": 318939
+      "version": "1.0.5",
+      "versionDate": "2026-11-17T06:02:51Z",
+      "versionDescription": "Add desktop app, code highlighting and the new colour scheme",
+      "downloadURL": "https://github.com/horsehound/fetch/releases/download/v1.0.5/Fetch.ipa",
+      "size": 394487
     }
   ],
   "featuredApps": [
