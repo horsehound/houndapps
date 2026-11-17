@@ -40,10 +40,45 @@
       "versionDescription": "Take app version and build number from build settings",
       "downloadURL": "https://github.com/horsehound/SwipeClean/releases/download/v1.0.7/SwipeClean.ipa",
       "size": 152282
+    },
+    {
+      "name": "Fetch",
+      "bundleIdentifier": "com.horsehound.fetch",
+      "developerName": "horsehound",
+      "subtitle": "Move text and pictures between your devices.",
+      "localizedDescription": "One live feed shared by your iPhone, laptop and PC, served by a small hub you host yourself. Paste or share text, pictures and files on one device and pick them up on the others. Unpinned items delete themselves after a week. Needs a Fetch hub: github.com/horsehound/fetch",
+      "iconURL": "https://raw.githubusercontent.com/horsehound/houndapps/main/icons/fetch.png",
+      "tintColor": "000000",
+      "category": "utilities",
+      "screenshots": [],
+      "versions": [
+        {
+          "version": "1.0.2",
+          "buildVersion": "2",
+          "date": "2026-11-17T05:19:35Z",
+          "localizedDescription": "Build the hub on Linux and the app on macOS in separate jobs",
+          "downloadURL": "https://github.com/horsehound/fetch/releases/download/v1.0.2/Fetch.ipa",
+          "size": 318939,
+          "minOSVersion": "17.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "Fetch talks to your hub on your home network.",
+          "NSPhotoLibraryAddUsageDescription": "Fetch saves pictures from your other devices to your photo library."
+        }
+      },
+      "version": "1.0.2",
+      "versionDate": "2026-11-17T05:19:35Z",
+      "versionDescription": "Build the hub on Linux and the app on macOS in separate jobs",
+      "downloadURL": "https://github.com/horsehound/fetch/releases/download/v1.0.2/Fetch.ipa",
+      "size": 318939
     }
   ],
   "featuredApps": [
-    "com.horsehound.swipeclean"
+    "com.horsehound.swipeclean",
+    "com.horsehound.fetch"
   ],
   "news": []
 }
