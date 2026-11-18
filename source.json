@@ -80,6 +80,15 @@
       "screenshots": [],
       "versions": [
         {
+          "version": "1.0.20",
+          "buildVersion": "20",
+          "date": "2026-11-18T02:50:24Z",
+          "localizedDescription": "Merge pull request #4 from horsehound/notify-houndapps",
+          "downloadURL": "https://github.com/horsehound/fetch/releases/download/v1.0.20/Fetch.ipa",
+          "size": 529800,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.0.18",
           "buildVersion": "18",
           "date": "2026-11-18T02:22:19Z",
@@ -114,15 +123,6 @@
           "downloadURL": "https://github.com/horsehound/fetch/releases/download/v1.0.8/Fetch.ipa",
           "size": 389928,
           "minOSVersion": "17.0"
-        },
-        {
-          "version": "1.0.5",
-          "buildVersion": "5",
-          "date": "2026-11-17T06:02:51Z",
-          "localizedDescription": "Add desktop app, code highlighting and the new colour scheme",
-          "downloadURL": "https://github.com/horsehound/fetch/releases/download/v1.0.5/Fetch.ipa",
-          "size": 394487,
-          "minOSVersion": "17.0"
         }
       ],
       "appPermissions": {
@@ -132,10 +132,10 @@
           "NSPhotoLibraryAddUsageDescription": "Fetch saves pictures from your other devices to your photo library."
         }
       },
-      "version": "1.0.18",
-      "versionDate": "2026-11-18T02:22:19Z",
-      "versionDescription": "Merge pull request #3 from horsehound/fix-hidden-unicode",
-      "downloadURL": "https://github.com/horsehound/fetch/releases/download/v1.0.18/Fetch.ipa",
+      "version": "1.0.20",
+      "versionDate": "2026-11-18T02:50:24Z",
+      "versionDescription": "Merge pull request #4 from horsehound/notify-houndapps",
+      "downloadURL": "https://github.com/horsehound/fetch/releases/download/v1.0.20/Fetch.ipa",
       "size": 529800
     }
   ],
