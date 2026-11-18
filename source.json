@@ -80,6 +80,15 @@
       "screenshots": [],
       "versions": [
         {
+          "version": "1.0.27",
+          "buildVersion": "27",
+          "date": "2026-11-18T12:03:20Z",
+          "localizedDescription": "Merge pull request #7 from horsehound/spaces",
+          "downloadURL": "https://github.com/horsehound/fetch/releases/download/v1.0.27/Fetch.ipa",
+          "size": 550889,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.0.24",
           "buildVersion": "24",
           "date": "2026-11-18T03:27:27Z",
@@ -114,15 +123,6 @@
           "downloadURL": "https://github.com/horsehound/fetch/releases/download/v1.0.18/Fetch.ipa",
           "size": 529800,
           "minOSVersion": "17.0"
-        },
-        {
-          "version": "1.0.15",
-          "buildVersion": "15",
-          "date": "2026-11-18T01:56:17Z",
-          "localizedDescription": "Merge pull request #2 from horsehound/e2e-encryption",
-          "downloadURL": "https://github.com/horsehound/fetch/releases/download/v1.0.15/Fetch.ipa",
-          "size": 529807,
-          "minOSVersion": "17.0"
         }
       ],
       "appPermissions": {
@@ -132,11 +132,11 @@
           "NSPhotoLibraryAddUsageDescription": "Fetch saves pictures from your other devices to your photo library."
         }
       },
-      "version": "1.0.24",
-      "versionDate": "2026-11-18T03:27:27Z",
-      "versionDescription": "Merge pull request #6 from horsehound/status-pill",
-      "downloadURL": "https://github.com/horsehound/fetch/releases/download/v1.0.24/Fetch.ipa",
-      "size": 545763
+      "version": "1.0.27",
+      "versionDate": "2026-11-18T12:03:20Z",
+      "versionDescription": "Merge pull request #7 from horsehound/spaces",
+      "downloadURL": "https://github.com/horsehound/fetch/releases/download/v1.0.27/Fetch.ipa",
+      "size": 550889
     }
   ],
   "featuredApps": [
