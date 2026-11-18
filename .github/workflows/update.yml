@@ -9,6 +9,10 @@ on:
       - "build_source.py"
       - ".github/workflows/update.yml"
   workflow_dispatch:
+  # Sent by an app's release workflow right after it publishes, so the source
+  # doesn't wait for the schedule (which GitHub often delays by hours).
+  repository_dispatch:
+    types: [release]
 
 permissions:
   contents: write
